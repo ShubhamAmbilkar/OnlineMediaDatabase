@@ -1,0 +1,179 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Jumbotron Header -->
+      <header class="jumbotron my-4">
+        <h1 class="display-3">A Warm Welcome!</h1>
+        <p class="lead"></p>
+        <a href="#" class="btn btn-primary btn-lg">Call to action!</a>
+      </header>
+
+      <!-- Page Features -->
+      <div class="row text-center">
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="{% static 'images/raid.jpg' %}" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Raid</h4>
+              <p class="card-text">Raid is a 2018 film features Ajay Devgn, Ileana D'Cruz and Saurabh Shukla inspired by the real life I-T raids that were conducted by the officers of the Indian Revenue Service in the 1980s.It was released worldwide on 16 March 2018, and was met with positive reviews from critics.</p>
+            </div>
+            <div class="card-footer">
+              <a href="{% url 'raid' %}" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="{% static 'images/fifth.jpg' %}" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Jumanji: Welcome to the Jungle</h4>
+              <p class="card-text">Jumanji: Welcome to the Jungle is a 2017 American adventure comedy film rom a story by McKenna. It is a part of the Jumanji franchise, serving as a sequel to Jumanji (1995), which is based on the 1981 children's book of the same name by Chris Van Allsburg.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="{% static 'images/avengers.jpg' %}" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Avengers: Infinity War</h4>
+              <p class="card-text">Avengers: Infinity War is an upcoming American superhero film based on the Marvel Comics superhero team the Avenger,the Avengers join forces with the Guardians of the Galaxy to stop Thanos from amassing the all-powerful Infinity Stones. </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="{% static 'images/alladin.jpg' %}" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Disney Aladdin - Experience The Magic!</h4>
+              <p class="card-text">The Broadway-style musical promises to have a subtle Indian touch without losing the original essence of the magical tale. A surreal experience awaits viewers in the form of larger than life sets and stunning performances by the cast.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+
+		<div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="{% static 'images/walkingdead.jpg' %}" alt="">
+            <div class="card-body">
+              <h4 class="card-title">The Walking Dead</h4>
+              <p class="card-text">Sheriff Deputy Rick Grimes gets shot and falls into a coma. When awoken he finds himself in a Zombie Apocalypse. Not knowing what to do he sets out to find his family, after he's done that he gets connected to a group to become the leader. </p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+
+		<div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="{% static 'images/friends.jpg' %}"  alt="">
+            <div class="card-body">
+              <h4 class="card-title">Friends </h4>
+              <p class="card-text">Rachel Green, Ross Geller, Monica Geller, Joey Tribbiani, Chandler Bing and Phoebe Buffay are six 20 something year-olds,living in New York City. Over the course of ten years, this average group of buddies goes through family trouble, past and future romances, fights, laughs, tears and surprises as they learn what it really means to be a friend.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+
+		<div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="{% static 'images/game.jpg' %}" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Game of Thrones </h4>
+              <p class="card-text">In the mythical continent of Westeros, several powerful families fight for control of the Seven Kingdoms. As conflict erupts in the kingdoms of men, an ancient enemy rises once again to threaten them all.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+
+		<div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="{% static 'images/world.jpg' %}" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Westworld </h4>
+              <p class="card-text">Westworld isn't your typical amusement park. Intended for rich vacationers, the futuristic park allows its visitors to live out their most primal fantasies with the robotic "hosts." However, the robotic hosts have evolved an artificial consciousness that is similar to, yet diverges from, human consciousness.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+
+		<div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="{% static 'images/rafi.jpg' %}" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Mohammed Rafi</h4>
+              <p class="card-text">Mohammed Rafi (24 December 1924 - 31 July 1980) was an Indian playback singer and one of the most popular and successful singers of the Hindi film industry. Rafi is widely considered to be one of the greatest singers of the Indian subcontinent.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+
+		<div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="{% static 'images/kapil.jpg' %}" alt="">
+            <div class="card-body">
+              <h4 class="card-title">The Kapil Sharma Show</h4>
+              <p class="card-text">The Kapil Sharma Show is an Indian Hindi stand-up comedy and talk show which premiered on 23 April 2016 and is broadcast by Sony TV.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+
+		<div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="{% static 'images/naruto.jpg' %}" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Naruto: Shippuden</h4>
+              <p class="card-text">The anime series Naruto: Shippuden are based on Part II for Masashi Kishimoto's manga series. The season focuses on Naruto Uzumaki, Sasuke Uchiha, Sakura Haruno and Kakashi Hatake attempting to defeat Kaguya Ōtsutsuki and Zetsu, the ones behind the activation of the Infinite Tsukuyomi.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+
+		<div class="col-lg-3 col-md-6 mb-4">
+          <div class="card">
+            <img class="card-img-top" src="{% static 'images/laugh.jpg' %}" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Canvas Laugh Club</h4>
+              <p class="card-text">Canvas Laugh Club is the foremost comedy company in India. ... Comedy is no funny business and Canvas Laugh Club is committed to bring to you the best in stand-up comedy each night. We are a platform for sparkling wit, laugh riots and comic timing.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+{% endblock %}

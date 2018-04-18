@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+    <div class="align-content-center">
+        <div class="container">
+
+            <div class="row">
+    <div class="col-3">
+        <div><a href="{% url 'action' %}">Action Movies</a> </div>
+    </div>
+    <div class="col-3">
+        <div><a href="{% url 'thriller' %}">Thriller Movies</a> </div>
+    </div>
+    <div class="col-3">
+        <div><a href="{% url 'best' %}">Best Movies </a> </div>
+    </div>
+    </div>
+        </div>
+    </div>
+
+{% endblock %}

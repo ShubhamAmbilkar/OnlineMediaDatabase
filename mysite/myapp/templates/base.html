@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>*MediaBook* - FREE Movies and TV Shows Online &amp; Just Go And Watch It</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" >
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="{% static '/heroic-features.css' %}" TYPE="text/css" >
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">*MEDIABOOK*</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="{% url 'index' %}">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link" href="{% url 'media' %}">Media form</a>
+            </li>
+              <li class="nav-item">
+              <a class="nav-link" href="{% url 'abstract' %}">List</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Movies</a>
+            </li>
+			 <li class="nav-item">
+              <a class="nav-link" href="#">TV-Series</a>
+            </li>
+			 <li class="nav-item">
+              <a class="nav-link" href="#">Music</a>
+            </li>
+			 <li class="nav-item">
+              <a class="nav-link" href="#">Animes</a>
+            </li>
+			 <li class="nav-item">
+              <a class="nav-link" href="#">Trending</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+			 <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link" href="#">Help</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="row">
+        <div class="col-12">
+            <p></p>
+            <br><br><br>
+        </div>
+            <div class="container">
+                <h1></h1>
+            {% block content %}
+
+            {% endblock %}
+            </div>
+        </div>
+
+    <br><br>
+    <p>
+        <br>
+
+        <br>
+    </p>
+    <br><br>
+
+
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; *MEDIABOOK* 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>

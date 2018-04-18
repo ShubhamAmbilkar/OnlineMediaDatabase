@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+    <div class="align-content-center">
+        <div class="container">
+        <div class="row">
+            <div class="col-12">
+               <h1> {{ title }} </h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                {% for m in mvs %}
+                <h2> {{ m.name }}  </h2>
+                {% endfor %}
+            </div>
+             <div class="col-md-6">
+                {% for m in mvs %}
+                <h2> {{ m.ratings }}  </h2>
+                {% endfor %}
+            </div>
+        </div>
+        </div>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+	<head>
+    	<title>	MY WEBPAGE </title>
+        <style type="text/css">   
+        .red {
+        	color:red;
+        }
+        
+        #blue {
+        	color:blue;
+        }
+		#smart
+		{
+		  font-size:200%;
+		  background-color:pink
+		}
+		a{
+		  text-decoration:none;
+		}
+        </style>
+        </head>
+    <body>
+    	<p class="red">Shubham is a nice boy.</p>
+		<div id="smart">
+        <p id="blue">Shubham is also intelligent and smart .</p>
+		
+		</div>
+		<a href="http://www.facebook.com" target="_blank">Facebook<a/>
+		<img src="{% static 'images/Mickey_Mouse.png' %}">
+    </body>
+</html>
